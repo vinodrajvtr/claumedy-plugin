@@ -1,0 +1,16 @@
+﻿{
+  "name": "claumedy",
+  "version": "0.1.0",
+  "description": "Context-aware stand-up comedy jokes during Claude Code generation",
+  "author": { "name": "vigne" },
+  "userConfig": {
+    "jokeMode": {
+      "title": "Joke Style",
+      "type": "string",
+      "default": "standup",
+      "description": "Style of filler during generation",
+      "options": ["standup", "one-liner", "roast", "encouragement"]
+    }
+  },
+  "types": "./types/index.d.ts"
+}

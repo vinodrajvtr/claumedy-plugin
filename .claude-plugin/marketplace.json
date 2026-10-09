@@ -1,0 +1,11 @@
+﻿{
+  "name": "claumedy-marketplace",
+  "owner": { "name": "vigne" },
+  "description": "Community plugins for Claude Code — starting with Claumedy, a context-aware comedy spinner that tells jokes while you wait for AI responses",
+  "plugins": [
+    {
+      "name": "claumedy",
+      "source": "./"
+    }
+  ]
+}
